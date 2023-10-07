@@ -1,0 +1,39 @@
+		.container{
+			display: flex;
+		}		
+		.container div{   /* стилі для блоків в класі контейнер*/
+			border: 1px solid #000;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			font-size: 12px;
+			line-height: 55px;
+		}	 
+		.box_static{  /* блок з статичним позиціонуванням */
+			background-color: blue;
+			color: #FFBB28;
+		}
+		.box_relative{  /* блок з відносним позиціонуванням */
+			background-color: yellow;
+			color: blue;
+			position: relative;
+			top: 145px;
+			left: 40px;
+			z-index: 2;
+		}
+		.box_absolute{   /* блок з абсолютним позиціонуванням */
+			background-color: pink;
+			position: absolute;
+			color: olive;
+			top: 80px;
+			left: 80px;
+			z-index: 3;
+		}
+		.box_fixed{  /* блок з фіксованим позиціонуванням */
+			background-color: purple;
+			color: #71FDFF;
+			position: fixed;
+			top: 40px;
+			right: 40px;
+			z-index: 4;
+		}
